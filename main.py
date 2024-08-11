@@ -42,3 +42,5 @@ for (filename) in inputs:
     print("Supported formats: " + "|".join(str(format[1:]) for format in supported_formats))
     continue
 
+prGreen("All audio files have been normalized")
+input("Press Enter to quit...")
